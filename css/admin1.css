@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: 2a9d8f;
+}
+.menu ul li a:hover{
+    color: 264653;
+
+}
+
+/* Main */
+.content{
+    background-color: f1f2f6;
+    padding: 3%;
+}
+
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 2%;
+    padding: 1%;
+    float: left;
+}
+.clearfix{
+    clear: both;
+    float: none;
+    
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 2px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+    
+}
+.btn-primary{
+    background-color: 96BAFF ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: 7C83FD ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary{
+    background-color: DDF3F5 ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.btn-secondary:hover{
+    background-color: A6DCEF ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.btn-danger{
+    background-color: F2AAAA ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+.btn-danger:hover{
+    background-color: E36387 ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/* Footer */
+.footer{
+    background-color: 2a9d8f;
+    color: white;
+}
+
+/* login */
+.login{
+    width: 20%;
+    border: 1px solid black;
+    margin: 5% auto;
+    padding: 2%;
+
+}

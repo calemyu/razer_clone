@@ -1,0 +1,155 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color : white;
+}
+html{
+    background-color: black;
+}
+.container{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+    text-decoration: none;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left : 40%;
+}
+.text-white{
+    color: white;
+}
+.btn-primary{
+    background-color: 96BAFF ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: 7C83FD ;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Navbar  */
+.logo{
+    width: 10%;
+    float: left;
+}
+.img-responsive{
+    width:100%;
+    
+}
+.menu{
+    line-height: 95px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+/* Big image */
+
+.bigimage1 h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.big-svg-logo{
+    position: relative  ;
+    
+    
+}
+.bigimage1{
+    background-image: url(../img/bigimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40%;
+    padding: 9% 0;
+
+}
+.bigimage1 h1{
+    color :white;
+}
+/* Categories */
+.categories{
+    padding : 1% 0;
+    
+}
+.category{
+
+    
+    width : 33%;
+    float : left;
+    
+}
+.category img{
+    height: 250px;
+}
+/* Shop */
+
+.shop-product-box{
+    width : 43%;
+    float : left;
+    padding : 2%;
+    margin : 1%;
+    border: white 1px solid;
+
+}
+.product-img{
+    width : 100px;
+    height : 100px;
+    float : left;
+
+}
+.product-desc{
+    width : 70%;
+    float : left;
+}
+/* contact */
+.contact ul{
+    list-style-type: none;
+}
+.contact ul li{
+    display : inline;
+    padding : 1%;
+}
+
